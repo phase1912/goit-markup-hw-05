@@ -697,11 +697,19 @@ input[type='checkbox']:checked
 .subscribe-input {
     width: 264px;
     height: 40px;
-    background-color: var(--color-navy-blue);
     color: var(--color-white);
     border: 1px solid var(--color-white);
     border-radius: 4px;
     padding: 8px 16px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-input::placeholder {
+    color: var(--color-white);
 }
 
 .subscribe-button {
@@ -713,11 +721,21 @@ input[type='checkbox']:checked
     color: var(--color-white);
     width: 165px;
     height: 40px;
-    border: 1px solid var(--color-iris);
     border-radius: 4px;
+    min-width: 165px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border: none;
 }
 
 .submit-icon {
     fill: var(--color-white);
+    margin-left: 16px;
+}
+
+.footer-form-label {
+    
 }
 
